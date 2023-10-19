@@ -14,7 +14,7 @@ module.exports = {
         allowNull: false,
       },
       telefone: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       senha: {
@@ -26,7 +26,7 @@ module.exports = {
         allowNull: false,
       },
       contato_responsavel: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       createdAt: {

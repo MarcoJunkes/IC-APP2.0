@@ -9,10 +9,10 @@ class Users extends Sequelize.Model {
                     type: Sequelize.STRING
                 },
                 nome: Sequelize.STRING,
-                telefone: Sequelize.INTEGER,
+                telefone: Sequelize.STRING,
                 senha: Sequelize.INTEGER,
                 nome_responsavel: Sequelize.STRING,
-                contato_responsavel: Sequelize.INTEGER,
+                contato_responsavel: Sequelize.STRING,
                 createdAt: Sequelize.DATE,
                 updatedAt: Sequelize.DATE
             },
